@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy 
-node('misc') {
+node('jslave1') {
       stage('Repo Pull') {
         echo "${seperator60}\n${seperator20} Checkout Source Repo \n${seperator60}"
         deleteDir()
